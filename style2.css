@@ -1,0 +1,19 @@
+body{
+
+}
+header{
+  position: fixed;
+}
+#header-img{
+    width: 350px;
+}
+/*navbar*/
+#nav-bar{
+  
+   
+
+}
+#navbar-list{
+     display:flex;
+     justify-content: end;
+}
