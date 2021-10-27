@@ -1,19 +1,108 @@
 body{
 
+font-family: sans-serif;
 }
 header{
   position: fixed;
+ width: 100%;
+  
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(148, 138, 138);
 }
 #header-img{
     width: 350px;
+
 }
 /*navbar*/
 #nav-bar{
-  
+ display: flex;
+
    
 
 }
 #navbar-list{
      display:flex;
-     justify-content: end;
+    
+ 
 }
+li{
+    list-style: none;
+    padding: 10px 50px ;
+  
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*email input*/
+#form{
+  width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+#email{
+width: 300px;
+height: 25px;
+
+
+margin:0px 0px 15px 0px; 
+}
+#submit{
+width:150px ;
+height: 35px;
+background-color: rgb(211, 200, 42);
+font-weight: bolder;
+text-transform: uppercase;
+cursor: pointer;
+border-radius: 3px;
+border-color: lavenderblush;
+
+}
+#submit:hover{
+  background-color: orange;
+  transition: 1s;
+}
+/*video*/
+
+
+
+/*products*/
+#pruducts{
+ display: flex;
+ flex-direction: row;
+
+}
+.box{
+ padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+#box1{
+flex:1;
+}
+#box2{
+  flex:2;
+}
+#box3{
+  flex:3;
+}
+
+
+/*global*/
+.icon{
+padding: 20px 0px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
